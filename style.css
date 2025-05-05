@@ -1,9 +1,23 @@
+
+.cabeçalho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:blanchedalmond;
+    font-size: 30px;
+    
+}
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgba(255, 228, 196, 0.274); 
+    height: 720px;
+    font-size: 28px;
 }
+
 
 #txt_input {
     width: 280px;
@@ -15,9 +29,20 @@
 .btn {
     width: 75px;
     height: 43px;
+    
 }
 
 .btn {
-    background-color: antiquewhite;
+    background-color: rgb(255, 255, 255);
     color: black;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: blanchedalmond;
+    
+
 }

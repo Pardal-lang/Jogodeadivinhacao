@@ -7,20 +7,43 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <header >
+        <div class="cabeçalho">
+            <h1> Jogo de Adivinhação de Palavras</h1>
 
+        </div>    
+
+        
+    </header>
+    
+    
+        
     <div class="container">
-        <h1> Adivinhe a palavra secreta</h1>
+        <h2> Tente Adivinhar</h2>
+        <p id="paragrafo_dicas" onmouseenter="mostrar_dica()">Passe o Mouse para ver a primeira dica!</p>
         <div class="input_container">
             <input type="text" id="txt_input" placeholder="Digite aqui...">
             <button class="btn" onclick="adivinhar()">Adivinhar</button>
         </div>
+        <div class="resultado" id="resultado"></div>
+        <p id="paragrafo_dicas"></p>
+        <p id="paragrafo_tentativas"> </p>
 
     </div>
     
     
 
-    <div class="resultado" id="resultado"></div>
+<div id="footer">
+    <footer>
+        <div class="footer">
+            <p>Desenvolvido por <a href="https://pardal-lang.github.io/Jogodeadivinhacao/" target="_blank">Wellington Leão de Oliveira &copy;</a></p> 
+            
 
+        </div>
+    </footer>
+    
+</div>
+    
     
     <script src="script.js"></script>
 </body>
